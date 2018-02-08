@@ -1,0 +1,850 @@
+[ 2018-02-07T12:47:09+08:00 ] 172.18.4.218 /index.php?s=/Admin/Login/index.html/
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' C:\Users\ZC\Desktop\shop\server\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002016s ]
+SQL: SHOW COLUMNS FROM `lr_program` [ RunTime:0.1975s ]
+SQL: SELECT * FROM `lr_program` LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+NOTIC: [8] Undefined variable: key C:\Users\ZC\Desktop\shop\server\App\Runtime\Cache\Admin\f0f0edaa955fd2857dedea53d1ab9ca3.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050374s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050424s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006168s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006211s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.023515s ]
+INFO: [ app_end ] --END-- [ RunTime:0.023569s ]
+
+[ 2018-02-07T12:47:14+08:00 ] 172.18.4.218 /index.php?s=/Admin/Login/index.html
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' C:\Users\ZC\Desktop\shop\server\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000030s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001623s ]
+SQL: SHOW COLUMNS FROM `lr_program` [ RunTime:0.0797s ]
+SQL: SELECT * FROM `lr_program` LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+NOTIC: [8] Undefined variable: key C:\Users\ZC\Desktop\shop\server\App\Runtime\Cache\Admin\f0f0edaa955fd2857dedea53d1ab9ca3.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005914s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005954s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000709s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000744s ]
+
+[ 2018-02-07T12:47:24+08:00 ] 172.18.4.218 /index.php?s=/Admin/Login/index.html/
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' C:\Users\ZC\Desktop\shop\server\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000053s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000916s ]
+SQL: SHOW COLUMNS FROM `lr_adminuser` [ RunTime:0.1127s ]
+SQL: SELECT * FROM `lr_adminuser` WHERE ( name='admin' AND del<1 ) LIMIT 1   [ RunTime:0.1630s ]
+SQL: SHOW COLUMNS FROM `lr_program` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `lr_program` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: shop_id C:\Users\ZC\Desktop\shop\server\App\Admin\Controller\LoginController.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000903s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000951s ]
+
+[ 2018-02-07T12:47:27+08:00 ] 172.18.4.218 /index.php?s=/Admin/Index/index.html
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' C:\Users\ZC\Desktop\shop\server\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000457s ]
+SQL: SHOW COLUMNS FROM `lr_web` [ RunTime:0.4239s ]
+SQL: SELECT `concent` FROM `lr_web` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.3519s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.087430s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.087478s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000927s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2018-02-07T12:47:29+08:00 ] 172.18.4.218 /index.php?s=/Admin/Page/adminindex.html
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' C:\Users\ZC\Desktop\shop\server\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000034s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000614s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036986s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037040s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000766s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000805s ]
+
+[ 2018-02-07T12:47:49+08:00 ] 172.18.4.218 /index.php?s=/Admin/Order/index.html
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' C:\Users\ZC\Desktop\shop\server\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000542s ]
+NOTIC: [2] Declaration of Admin\Controller\OrderController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\Users\ZC\Desktop\shop\server\App\Admin\Controller\OrderController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `lr_order` [ RunTime:0.1405s ]
+SQL: SHOW COLUMNS FROM `lr_order_product` [ RunTime:0.0891s ]
+NOTIC: [8] Undefined index: shop_id C:\Users\ZC\Desktop\shop\server\App\Admin\Controller\OrderController.class.php 第 38 行.
+NOTIC: [8] Undefined index: pay_type C:\Users\ZC\Desktop\shop\server\App\Admin\Controller\OrderController.class.php 第 41 行.
+NOTIC: [8] Undefined index: pay_status C:\Users\ZC\Desktop\shop\server\App\Admin\Controller\OrderController.class.php 第 42 行.
+NOTIC: [8] Undefined index: start_time C:\Users\ZC\Desktop\shop\server\App\Admin\Controller\OrderController.class.php 第 43 行.
+NOTIC: [8] Undefined index: end_time C:\Users\ZC\Desktop\shop\server\App\Admin\Controller\OrderController.class.php 第 44 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `lr_order` WHERE ( 1=1 AND del=0 ) LIMIT 1   [ RunTime:0.0378s ]
+SQL: SELECT * FROM `lr_order` WHERE ( 1=1 AND del=0 ) ORDER BY id desc LIMIT 0,25   [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `lr_user` [ RunTime:0.0383s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+NOTIC: [8] Undefined variable: shop_id C:\Users\ZC\Desktop\shop\server\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 41 行.
+NOTIC: [8] Undefined variable: pay_type C:\Users\ZC\Desktop\shop\server\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 53 行.
+NOTIC: [8] Undefined variable: pay_type C:\Users\ZC\Desktop\shop\server\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 54 行.
+NOTIC: [8] Undefined variable: pay_status C:\Users\ZC\Desktop\shop\server\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 64 行.
+NOTIC: [8] Undefined variable: pay_status C:\Users\ZC\Desktop\shop\server\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 64 行.
+NOTIC: [8] Undefined variable: pay_status C:\Users\ZC\Desktop\shop\server\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 64 行.
+NOTIC: [8] Undefined variable: pay_status C:\Users\ZC\Desktop\shop\server\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 64 行.
+NOTIC: [8] Undefined variable: pay_status C:\Users\ZC\Desktop\shop\server\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 64 行.
+NOTIC: [8] Undefined variable: pay_status C:\Users\ZC\Desktop\shop\server\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 66 行.
+NOTIC: [8] Undefined variable: pay_status C:\Users\ZC\Desktop\shop\server\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 67 行.
+NOTIC: [8] Undefined variable: start_time C:\Users\ZC\Desktop\shop\server\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 73 行.
+NOTIC: [8] Undefined variable: end_time C:\Users\ZC\Desktop\shop\server\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 75 行.
+NOTIC: [8] Undefined index: name C:\Users\ZC\Desktop\shop\server\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 102 行.
+NOTIC: [8] Undefined index: name C:\Users\ZC\Desktop\shop\server\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 102 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022015s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022051s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000490s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000540s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000570s ]
+
+[ 2018-02-07T12:47:52+08:00 ] 172.18.4.218 /index.php?s=/Admin/Order/show.html&oid=4
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' C:\Users\ZC\Desktop\shop\server\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000097s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002045s ]
+NOTIC: [2] Declaration of Admin\Controller\OrderController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\Users\ZC\Desktop\shop\server\App\Admin\Controller\OrderController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `lr_order` [ RunTime:0.0084s ]
+SQL: SHOW COLUMNS FROM `lr_order_product` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `lr_order` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0004s ]
+ERR: Call to a member function where() on boolean
+
+[ 2018-02-07T12:48:02+08:00 ] 172.18.4.218 /index.php?s=/Admin/Login/index.html
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' C:\Users\ZC\Desktop\shop\server\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000035s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000496s ]
+SQL: SHOW COLUMNS FROM `lr_program` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `lr_program` LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+NOTIC: [8] Undefined variable: key C:\Users\ZC\Desktop\shop\server\App\Runtime\Cache\Admin\f0f0edaa955fd2857dedea53d1ab9ca3.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006732s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006782s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000545s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000807s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000853s ]
+
+[ 2018-02-07T12:48:07+08:00 ] 172.18.4.218 /index.php?s=/Admin/Product/index.html
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' C:\Users\ZC\Desktop\shop\server\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000056s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001156s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001220s ]
+NOTIC: [8] Undefined index: id C:\Users\ZC\Desktop\shop\server\App\Admin\Controller\ProductController.class.php 第 19 行.
+NOTIC: [8] Undefined index: shop_id C:\Users\ZC\Desktop\shop\server\App\Admin\Controller\ProductController.class.php 第 20 行.
+NOTIC: [8] Undefined index: type C:\Users\ZC\Desktop\shop\server\App\Admin\Controller\ProductController.class.php 第 23 行.
+NOTIC: [8] Undefined index: tuijian C:\Users\ZC\Desktop\shop\server\App\Admin\Controller\ProductController.class.php 第 24 行.
+NOTIC: [8] Undefined index: name C:\Users\ZC\Desktop\shop\server\App\Admin\Controller\ProductController.class.php 第 25 行.
+SQL: SHOW COLUMNS FROM `lr_product` [ RunTime:0.0605s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lr_product` WHERE ( 1=1 AND pro_type=1 AND del<1 ) LIMIT 1   [ RunTime:0.0856s ]
+NOTIC: [8] Undefined index: page C:\Users\ZC\Desktop\shop\server\App\Admin\Controller\ProductController.class.php 第 37 行.
+SQL: SELECT * FROM `lr_product` WHERE ( 1=1 AND pro_type=1 AND del<1 ) ORDER BY addtime desc LIMIT 0,5   [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `lr_category` [ RunTime:0.0400s ]
+SQL: SELECT `name` FROM `lr_category` WHERE ( id=9 ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `lr_brand` [ RunTime:0.0265s ]
+SQL: SELECT `name` FROM `lr_brand` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `name` FROM `lr_category` WHERE ( id=15 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `name` FROM `lr_brand` WHERE ( id=7 ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT `name` FROM `lr_category` WHERE ( id=15 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `lr_brand` WHERE ( id=7 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `lr_category` WHERE ( id=8 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `lr_brand` WHERE ( id=7 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `lr_category` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `lr_brand` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000225s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000305s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067677s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067788s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001339s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001449s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002019s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002171s ]
+
+[ 2018-02-07T12:48:21+08:00 ] 172.18.4.218 /index.php?s=/Admin/Order/index.html
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' C:\Users\ZC\Desktop\shop\server\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000611s ]
+NOTIC: [2] Declaration of Admin\Controller\OrderController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\Users\ZC\Desktop\shop\server\App\Admin\Controller\OrderController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `lr_order` [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `lr_order_product` [ RunTime:0.0046s ]
+NOTIC: [8] Undefined index: shop_id C:\Users\ZC\Desktop\shop\server\App\Admin\Controller\OrderController.class.php 第 38 行.
+NOTIC: [8] Undefined index: pay_type C:\Users\ZC\Desktop\shop\server\App\Admin\Controller\OrderController.class.php 第 41 行.
+NOTIC: [8] Undefined index: pay_status C:\Users\ZC\Desktop\shop\server\App\Admin\Controller\OrderController.class.php 第 42 行.
+NOTIC: [8] Undefined index: start_time C:\Users\ZC\Desktop\shop\server\App\Admin\Controller\OrderController.class.php 第 43 行.
+NOTIC: [8] Undefined index: end_time C:\Users\ZC\Desktop\shop\server\App\Admin\Controller\OrderController.class.php 第 44 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `lr_order` WHERE ( 1=1 AND del=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `lr_order` WHERE ( 1=1 AND del=0 ) ORDER BY id desc LIMIT 0,25   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `lr_user` [ RunTime:0.0045s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+NOTIC: [8] Undefined variable: shop_id C:\Users\ZC\Desktop\shop\server\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 41 行.
+NOTIC: [8] Undefined variable: pay_type C:\Users\ZC\Desktop\shop\server\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 53 行.
+NOTIC: [8] Undefined variable: pay_type C:\Users\ZC\Desktop\shop\server\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 54 行.
+NOTIC: [8] Undefined variable: pay_status C:\Users\ZC\Desktop\shop\server\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 64 行.
+NOTIC: [8] Undefined variable: pay_status C:\Users\ZC\Desktop\shop\server\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 64 行.
+NOTIC: [8] Undefined variable: pay_status C:\Users\ZC\Desktop\shop\server\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 64 行.
+NOTIC: [8] Undefined variable: pay_status C:\Users\ZC\Desktop\shop\server\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 64 行.
+NOTIC: [8] Undefined variable: pay_status C:\Users\ZC\Desktop\shop\server\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 64 行.
+NOTIC: [8] Undefined variable: pay_status C:\Users\ZC\Desktop\shop\server\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 66 行.
+NOTIC: [8] Undefined variable: pay_status C:\Users\ZC\Desktop\shop\server\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 67 行.
+NOTIC: [8] Undefined variable: start_time C:\Users\ZC\Desktop\shop\server\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 73 行.
+NOTIC: [8] Undefined variable: end_time C:\Users\ZC\Desktop\shop\server\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 75 行.
+NOTIC: [8] Undefined index: name C:\Users\ZC\Desktop\shop\server\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 102 行.
+NOTIC: [8] Undefined index: name C:\Users\ZC\Desktop\shop\server\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 102 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007686s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007728s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000619s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000917s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000971s ]
+
+[ 2018-02-07T12:48:25+08:00 ] 172.18.4.218 /index.php?s=/Admin/Order/show.html&oid=2
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' C:\Users\ZC\Desktop\shop\server\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001114s ]
+NOTIC: [2] Declaration of Admin\Controller\OrderController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\Users\ZC\Desktop\shop\server\App\Admin\Controller\OrderController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `lr_order` [ RunTime:0.0084s ]
+SQL: SHOW COLUMNS FROM `lr_order_product` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `lr_order` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0007s ]
+ERR: Call to a member function where() on boolean
+
+[ 2018-02-07T12:48:25+08:00 ] 172.18.4.218 /index.php?s=/Admin/Index/index.html
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' C:\Users\ZC\Desktop\shop\server\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000763s ]
+
+[ 2018-02-07T12:48:29+08:00 ] 172.18.4.218 /index.php?s=/Admin/Page/adminindex.html
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' C:\Users\ZC\Desktop\shop\server\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000031s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000451s ]
+
+[ 2018-02-07T12:48:48+08:00 ] 172.18.4.218 /index.php?s=/Admin/Order/index.html
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' C:\Users\ZC\Desktop\shop\server\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001157s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001256s ]
+NOTIC: [2] Declaration of Admin\Controller\OrderController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\Users\ZC\Desktop\shop\server\App\Admin\Controller\OrderController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `lr_order` [ RunTime:0.0127s ]
+SQL: SHOW COLUMNS FROM `lr_order_product` [ RunTime:0.0115s ]
+
+[ 2018-02-07T12:48:52+08:00 ] 172.18.4.218 /index.php?s=/Admin/Order/show.html&oid=4
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' C:\Users\ZC\Desktop\shop\server\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001357s ]
+NOTIC: [2] Declaration of Admin\Controller\OrderController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\Users\ZC\Desktop\shop\server\App\Admin\Controller\OrderController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `lr_order` [ RunTime:0.0053s ]
+SQL: SHOW COLUMNS FROM `lr_order_product` [ RunTime:0.0046s ]
+
+[ 2018-02-07T12:49:06+08:00 ] 172.18.4.218 /index.php?s=/Admin/Product/index.html
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' C:\Users\ZC\Desktop\shop\server\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000756s ]
+
+[ 2018-02-07T12:49:21+08:00 ] 172.18.4.218 /index.php?s=/Admin/Index/index.html
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' C:\Users\ZC\Desktop\shop\server\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000039s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000723s ]
+SQL: SHOW COLUMNS FROM `lr_web` [ RunTime:0.0179s ]
+SQL: SELECT `concent` FROM `lr_web` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000214s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017346s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017413s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001084s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001153s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001827s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001915s ]
+
+[ 2018-02-07T12:49:22+08:00 ] 172.18.4.218 /index.php?s=/Admin/Page/adminindex.html
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' C:\Users\ZC\Desktop\shop\server\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000029s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000487s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004034s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004073s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000868s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000915s ]
+
+[ 2018-02-07T12:49:24+08:00 ] 172.18.4.218 /index.php?s=/Admin/Order/show.html&oid=2
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' C:\Users\ZC\Desktop\shop\server\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000040s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000453s ]
+NOTIC: [2] Declaration of Admin\Controller\OrderController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\Users\ZC\Desktop\shop\server\App\Admin\Controller\OrderController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `lr_order` [ RunTime:0.0039s ]
+SQL: SHOW COLUMNS FROM `lr_order_product` [ RunTime:0.0033s ]
+
+[ 2018-02-07T12:49:27+08:00 ] 172.18.4.218 /index.php?s=/Admin/Order/index.html
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' C:\Users\ZC\Desktop\shop\server\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001513s ]
+NOTIC: [2] Declaration of Admin\Controller\OrderController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\Users\ZC\Desktop\shop\server\App\Admin\Controller\OrderController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `lr_order` [ RunTime:0.0053s ]
+SQL: SHOW COLUMNS FROM `lr_order_product` [ RunTime:0.0051s ]
+NOTIC: [8] Undefined index: shop_id C:\Users\ZC\Desktop\shop\server\App\Admin\Controller\OrderController.class.php 第 38 行.
+NOTIC: [8] Undefined index: pay_type C:\Users\ZC\Desktop\shop\server\App\Admin\Controller\OrderController.class.php 第 41 行.
+NOTIC: [8] Undefined index: pay_status C:\Users\ZC\Desktop\shop\server\App\Admin\Controller\OrderController.class.php 第 42 行.
+NOTIC: [8] Undefined index: start_time C:\Users\ZC\Desktop\shop\server\App\Admin\Controller\OrderController.class.php 第 43 行.
+NOTIC: [8] Undefined index: end_time C:\Users\ZC\Desktop\shop\server\App\Admin\Controller\OrderController.class.php 第 44 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `lr_order` WHERE ( 1=1 AND del=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `lr_order` WHERE ( 1=1 AND del=0 ) ORDER BY id desc LIMIT 0,25   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `lr_user` [ RunTime:0.0049s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+NOTIC: [8] Undefined variable: shop_id C:\Users\ZC\Desktop\shop\server\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 41 行.
+NOTIC: [8] Undefined variable: pay_type C:\Users\ZC\Desktop\shop\server\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 53 行.
+NOTIC: [8] Undefined variable: pay_type C:\Users\ZC\Desktop\shop\server\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 54 行.
+NOTIC: [8] Undefined variable: pay_status C:\Users\ZC\Desktop\shop\server\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 64 行.
+NOTIC: [8] Undefined variable: pay_status C:\Users\ZC\Desktop\shop\server\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 64 行.
+NOTIC: [8] Undefined variable: pay_status C:\Users\ZC\Desktop\shop\server\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 64 行.
+NOTIC: [8] Undefined variable: pay_status C:\Users\ZC\Desktop\shop\server\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 64 行.
+NOTIC: [8] Undefined variable: pay_status C:\Users\ZC\Desktop\shop\server\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 64 行.
+NOTIC: [8] Undefined variable: pay_status C:\Users\ZC\Desktop\shop\server\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 66 行.
+NOTIC: [8] Undefined variable: pay_status C:\Users\ZC\Desktop\shop\server\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 67 行.
+NOTIC: [8] Undefined variable: start_time C:\Users\ZC\Desktop\shop\server\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 73 行.
+NOTIC: [8] Undefined variable: end_time C:\Users\ZC\Desktop\shop\server\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 75 行.
+NOTIC: [8] Undefined index: name C:\Users\ZC\Desktop\shop\server\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 102 行.
+NOTIC: [8] Undefined index: name C:\Users\ZC\Desktop\shop\server\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 102 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008566s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008607s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001075s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001140s ]
+
+[ 2018-02-07T12:49:28+08:00 ] 172.18.4.218 /index.php?s=/Admin/Order/show.html&oid=4
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' C:\Users\ZC\Desktop\shop\server\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001897s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001989s ]
+NOTIC: [2] Declaration of Admin\Controller\OrderController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\Users\ZC\Desktop\shop\server\App\Admin\Controller\OrderController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `lr_order` [ RunTime:0.0071s ]
+SQL: SHOW COLUMNS FROM `lr_order_product` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `lr_order` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0006s ]
+ERR: Call to a member function where() on boolean
+
+[ 2018-02-07T12:51:08+08:00 ] 172.18.4.218 /index.php?s=/Admin/Index/index.html
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' C:\Users\ZC\Desktop\shop\server\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000740s ]
+SQL: SHOW COLUMNS FROM `lr_web` [ RunTime:0.0037s ]
+SQL: SELECT `concent` FROM `lr_web` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000209s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009337s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009399s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000699s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000872s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000915s ]
+
+[ 2018-02-07T12:51:09+08:00 ] 172.18.4.218 /index.php?s=/Admin/Page/adminindex.html
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' C:\Users\ZC\Desktop\shop\server\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000031s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000449s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005950s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005998s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000476s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000749s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000795s ]
+
+[ 2018-02-07T12:51:11+08:00 ] 172.18.4.218 /index.php?s=/Admin/Order/index.html
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' C:\Users\ZC\Desktop\shop\server\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000963s ]
+NOTIC: [2] Declaration of Admin\Controller\OrderController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\Users\ZC\Desktop\shop\server\App\Admin\Controller\OrderController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `lr_order` [ RunTime:0.0083s ]
+SQL: SHOW COLUMNS FROM `lr_order_product` [ RunTime:0.0066s ]
+NOTIC: [8] Undefined index: shop_id C:\Users\ZC\Desktop\shop\server\App\Admin\Controller\OrderController.class.php 第 38 行.
+NOTIC: [8] Undefined index: pay_type C:\Users\ZC\Desktop\shop\server\App\Admin\Controller\OrderController.class.php 第 41 行.
+NOTIC: [8] Undefined index: pay_status C:\Users\ZC\Desktop\shop\server\App\Admin\Controller\OrderController.class.php 第 42 行.
+NOTIC: [8] Undefined index: start_time C:\Users\ZC\Desktop\shop\server\App\Admin\Controller\OrderController.class.php 第 43 行.
+NOTIC: [8] Undefined index: end_time C:\Users\ZC\Desktop\shop\server\App\Admin\Controller\OrderController.class.php 第 44 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `lr_order` WHERE ( 1=1 AND del=0 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lr_order` WHERE ( 1=1 AND del=0 ) ORDER BY id desc LIMIT 0,25   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `lr_user` [ RunTime:0.0154s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+NOTIC: [8] Undefined variable: shop_id C:\Users\ZC\Desktop\shop\server\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 41 行.
+NOTIC: [8] Undefined variable: pay_type C:\Users\ZC\Desktop\shop\server\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 53 行.
+NOTIC: [8] Undefined variable: pay_type C:\Users\ZC\Desktop\shop\server\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 54 行.
+NOTIC: [8] Undefined variable: pay_status C:\Users\ZC\Desktop\shop\server\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 64 行.
+NOTIC: [8] Undefined variable: pay_status C:\Users\ZC\Desktop\shop\server\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 64 行.
+NOTIC: [8] Undefined variable: pay_status C:\Users\ZC\Desktop\shop\server\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 64 行.
+NOTIC: [8] Undefined variable: pay_status C:\Users\ZC\Desktop\shop\server\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 64 行.
+NOTIC: [8] Undefined variable: pay_status C:\Users\ZC\Desktop\shop\server\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 64 行.
+NOTIC: [8] Undefined variable: pay_status C:\Users\ZC\Desktop\shop\server\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 66 行.
+NOTIC: [8] Undefined variable: pay_status C:\Users\ZC\Desktop\shop\server\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 67 行.
+NOTIC: [8] Undefined variable: start_time C:\Users\ZC\Desktop\shop\server\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 73 行.
+NOTIC: [8] Undefined variable: end_time C:\Users\ZC\Desktop\shop\server\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 75 行.
+NOTIC: [8] Undefined index: name C:\Users\ZC\Desktop\shop\server\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 102 行.
+NOTIC: [8] Undefined index: name C:\Users\ZC\Desktop\shop\server\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 102 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012690s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012759s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000795s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000854s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001280s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001363s ]
+
+[ 2018-02-07T12:51:13+08:00 ] 172.18.4.218 /index.php?s=/Admin/Order/show.html&oid=4
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' C:\Users\ZC\Desktop\shop\server\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001620s ]
+NOTIC: [2] Declaration of Admin\Controller\OrderController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\Users\ZC\Desktop\shop\server\App\Admin\Controller\OrderController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `lr_order` [ RunTime:0.0038s ]
+SQL: SHOW COLUMNS FROM `lr_order_product` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `lr_order` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lr_order_product` WHERE ( order_id=4 )  [ RunTime:0.0125s ]
+NOTIC: [8] Undefined index: pro_guide C:\Users\ZC\Desktop\shop\server\App\Admin\Controller\OrderController.class.php 第 176 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+NOTIC: [8] Undefined variable: name C:\Users\ZC\Desktop\shop\server\App\Runtime\Cache\Admin\a42ffec115e06477249ec78d2d3f6ffa.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027655s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027693s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000566s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000598s ]
+
+[ 2018-02-07T12:51:20+08:00 ] 172.18.4.218 /index.php?s=/Admin/Order/sms_up.html
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' C:\Users\ZC\Desktop\shop\server\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000841s ]
+NOTIC: [2] Declaration of Admin\Controller\OrderController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\Users\ZC\Desktop\shop\server\App\Admin\Controller\OrderController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `lr_order` [ RunTime:0.0054s ]
+SQL: SHOW COLUMNS FROM `lr_order_product` [ RunTime:0.0035s ]
+ERR: 非法操作:sms_up
+
+[ 2018-02-07T12:51:25+08:00 ] 172.18.4.218 /index.php?s=/Admin/Order/sms_up.html
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' C:\Users\ZC\Desktop\shop\server\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001089s ]
+NOTIC: [2] Declaration of Admin\Controller\OrderController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\Users\ZC\Desktop\shop\server\App\Admin\Controller\OrderController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `lr_order` [ RunTime:0.0046s ]
+SQL: SHOW COLUMNS FROM `lr_order_product` [ RunTime:0.0040s ]
+ERR: 非法操作:sms_up
+
+[ 2018-02-07T12:51:28+08:00 ] 172.18.4.218 /index.php?s=/Admin/Order/sms_up.html
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' C:\Users\ZC\Desktop\shop\server\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001086s ]
+NOTIC: [2] Declaration of Admin\Controller\OrderController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\Users\ZC\Desktop\shop\server\App\Admin\Controller\OrderController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `lr_order` [ RunTime:0.0061s ]
+SQL: SHOW COLUMNS FROM `lr_order_product` [ RunTime:0.0037s ]
+ERR: 非法操作:sms_up
+
+[ 2018-02-07T12:59:20+08:00 ] 172.18.4.218 /index.php?s=/Admin/Login/index.html/
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' C:\Users\ZC\Desktop\shop\server\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000047s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000870s ]
+SQL: SHOW COLUMNS FROM `lr_program` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `lr_program` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+NOTIC: [8] Undefined variable: key C:\Users\ZC\Desktop\shop\server\App\Runtime\Cache\Admin\f0f0edaa955fd2857dedea53d1ab9ca3.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009039s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009091s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000800s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000851s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001255s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001315s ]
+
+[ 2018-02-07T12:59:29+08:00 ] 172.18.4.218 /index.php?s=/Admin/Login/index.html/
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' C:\Users\ZC\Desktop\shop\server\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000053s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000480s ]
+SQL: SHOW COLUMNS FROM `lr_adminuser` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `lr_adminuser` WHERE ( name='admin' AND del<1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `lr_program` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `lr_program` LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: shop_id C:\Users\ZC\Desktop\shop\server\App\Admin\Controller\LoginController.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000761s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000792s ]
+
+[ 2018-02-07T12:59:30+08:00 ] 172.18.4.218 /index.php?s=/Admin/Index/index.html
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' C:\Users\ZC\Desktop\shop\server\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000034s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000617s ]
+SQL: SHOW COLUMNS FROM `lr_web` [ RunTime:0.0035s ]
+SQL: SELECT `concent` FROM `lr_web` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011906s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011951s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000741s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000782s ]
+
+[ 2018-02-07T12:59:31+08:00 ] 172.18.4.218 /index.php?s=/Admin/Page/adminindex.html
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' C:\Users\ZC\Desktop\shop\server\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000654s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005490s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005543s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000689s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000732s ]
+
+[ 2018-02-07T12:59:35+08:00 ] 172.18.4.218 /index.php?s=/Admin/Order/index.html
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' C:\Users\ZC\Desktop\shop\server\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000055s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000788s ]
+NOTIC: [2] Declaration of Admin\Controller\OrderController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\Users\ZC\Desktop\shop\server\App\Admin\Controller\OrderController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `lr_order` [ RunTime:0.0148s ]
+SQL: SHOW COLUMNS FROM `lr_order_product` [ RunTime:0.0135s ]
+NOTIC: [8] Undefined index: shop_id C:\Users\ZC\Desktop\shop\server\App\Admin\Controller\OrderController.class.php 第 38 行.
+NOTIC: [8] Undefined index: pay_type C:\Users\ZC\Desktop\shop\server\App\Admin\Controller\OrderController.class.php 第 41 行.
+NOTIC: [8] Undefined index: pay_status C:\Users\ZC\Desktop\shop\server\App\Admin\Controller\OrderController.class.php 第 42 行.
+NOTIC: [8] Undefined index: start_time C:\Users\ZC\Desktop\shop\server\App\Admin\Controller\OrderController.class.php 第 43 行.
+NOTIC: [8] Undefined index: end_time C:\Users\ZC\Desktop\shop\server\App\Admin\Controller\OrderController.class.php 第 44 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `lr_order` WHERE ( 1=1 AND del=0 ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `lr_order` WHERE ( 1=1 AND del=0 ) ORDER BY id desc LIMIT 0,25   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `lr_user` [ RunTime:0.0071s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+NOTIC: [8] Undefined variable: shop_id C:\Users\ZC\Desktop\shop\server\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 41 行.
+NOTIC: [8] Undefined variable: pay_type C:\Users\ZC\Desktop\shop\server\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 53 行.
+NOTIC: [8] Undefined variable: pay_type C:\Users\ZC\Desktop\shop\server\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 54 行.
+NOTIC: [8] Undefined variable: pay_status C:\Users\ZC\Desktop\shop\server\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 64 行.
+NOTIC: [8] Undefined variable: pay_status C:\Users\ZC\Desktop\shop\server\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 64 行.
+NOTIC: [8] Undefined variable: pay_status C:\Users\ZC\Desktop\shop\server\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 64 行.
+NOTIC: [8] Undefined variable: pay_status C:\Users\ZC\Desktop\shop\server\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 64 行.
+NOTIC: [8] Undefined variable: pay_status C:\Users\ZC\Desktop\shop\server\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 64 行.
+NOTIC: [8] Undefined variable: pay_status C:\Users\ZC\Desktop\shop\server\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 66 行.
+NOTIC: [8] Undefined variable: pay_status C:\Users\ZC\Desktop\shop\server\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 67 行.
+NOTIC: [8] Undefined variable: start_time C:\Users\ZC\Desktop\shop\server\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 73 行.
+NOTIC: [8] Undefined variable: end_time C:\Users\ZC\Desktop\shop\server\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 75 行.
+NOTIC: [8] Undefined index: name C:\Users\ZC\Desktop\shop\server\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 102 行.
+NOTIC: [8] Undefined index: name C:\Users\ZC\Desktop\shop\server\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 102 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011465s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011528s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000766s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000829s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001200s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001264s ]
+
+[ 2018-02-07T12:59:37+08:00 ] 172.18.4.218 /index.php?s=/Admin/Order/show.html&oid=2
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' C:\Users\ZC\Desktop\shop\server\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001319s ]
+NOTIC: [2] Declaration of Admin\Controller\OrderController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\Users\ZC\Desktop\shop\server\App\Admin\Controller\OrderController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `lr_order` [ RunTime:0.0114s ]
+SQL: SHOW COLUMNS FROM `lr_order_product` [ RunTime:0.0144s ]
+SQL: SELECT * FROM `lr_order` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lr_order_product` WHERE ( order_id=2 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: pro_guide C:\Users\ZC\Desktop\shop\server\App\Admin\Controller\OrderController.class.php 第 176 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000173s ]
+NOTIC: [8] Undefined variable: name C:\Users\ZC\Desktop\shop\server\App\Runtime\Cache\Admin\a42ffec115e06477249ec78d2d3f6ffa.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009586s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009636s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001997s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002078s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001755s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001821s ]
+
+[ 2018-02-07T12:59:41+08:00 ] 172.18.4.218 /index.php?s=/Admin/Order/smsUp.html
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' C:\Users\ZC\Desktop\shop\server\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000946s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000997s ]
+NOTIC: [2] Declaration of Admin\Controller\OrderController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\Users\ZC\Desktop\shop\server\App\Admin\Controller\OrderController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `lr_order` [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `lr_order_product` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `lr_order` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `lr_order` SET `status`='30',`kuaidi_name`='顺丰快递',`kuaidi_num`='43214321423' WHERE ( id=2 ) [ RunTime:0.1079s ]
+
+[ 2018-02-07T12:59:44+08:00 ] 172.18.4.218 /index.php?s=/Admin/Order/index.html
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' C:\Users\ZC\Desktop\shop\server\App\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000638s ]
+NOTIC: [2] Declaration of Admin\Controller\OrderController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\Users\ZC\Desktop\shop\server\App\Admin\Controller\OrderController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `lr_order` [ RunTime:0.0041s ]
+SQL: SHOW COLUMNS FROM `lr_order_product` [ RunTime:0.0035s ]
+NOTIC: [8] Undefined index: shop_id C:\Users\ZC\Desktop\shop\server\App\Admin\Controller\OrderController.class.php 第 38 行.
+NOTIC: [8] Undefined index: pay_type C:\Users\ZC\Desktop\shop\server\App\Admin\Controller\OrderController.class.php 第 41 行.
+NOTIC: [8] Undefined index: pay_status C:\Users\ZC\Desktop\shop\server\App\Admin\Controller\OrderController.class.php 第 42 行.
+NOTIC: [8] Undefined index: start_time C:\Users\ZC\Desktop\shop\server\App\Admin\Controller\OrderController.class.php 第 43 行.
+NOTIC: [8] Undefined index: end_time C:\Users\ZC\Desktop\shop\server\App\Admin\Controller\OrderController.class.php 第 44 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `lr_order` WHERE ( 1=1 AND del=0 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lr_order` WHERE ( 1=1 AND del=0 ) ORDER BY id desc LIMIT 0,25   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `lr_user` [ RunTime:0.0038s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+NOTIC: [8] Undefined variable: shop_id C:\Users\ZC\Desktop\shop\server\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 41 行.
+NOTIC: [8] Undefined variable: pay_type C:\Users\ZC\Desktop\shop\server\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 53 行.
+NOTIC: [8] Undefined variable: pay_type C:\Users\ZC\Desktop\shop\server\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 54 行.
+NOTIC: [8] Undefined variable: pay_status C:\Users\ZC\Desktop\shop\server\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 64 行.
+NOTIC: [8] Undefined variable: pay_status C:\Users\ZC\Desktop\shop\server\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 64 行.
+NOTIC: [8] Undefined variable: pay_status C:\Users\ZC\Desktop\shop\server\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 64 行.
+NOTIC: [8] Undefined variable: pay_status C:\Users\ZC\Desktop\shop\server\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 64 行.
+NOTIC: [8] Undefined variable: pay_status C:\Users\ZC\Desktop\shop\server\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 64 行.
+NOTIC: [8] Undefined variable: pay_status C:\Users\ZC\Desktop\shop\server\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 66 行.
+NOTIC: [8] Undefined variable: pay_status C:\Users\ZC\Desktop\shop\server\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 67 行.
+NOTIC: [8] Undefined variable: start_time C:\Users\ZC\Desktop\shop\server\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 73 行.
+NOTIC: [8] Undefined variable: end_time C:\Users\ZC\Desktop\shop\server\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 75 行.
+NOTIC: [8] Undefined index: name C:\Users\ZC\Desktop\shop\server\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 102 行.
+NOTIC: [8] Undefined index: name C:\Users\ZC\Desktop\shop\server\App\Runtime\Cache\Admin\fe3111dbdfd9340f96aca53ab7ea90c5.php 第 102 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006253s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006288s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000511s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000688s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000729s ]
+
